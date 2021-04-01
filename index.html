@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskBoard</title>
+    <script defer src="main.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="titleContainer">
+        <h1 class="sweetFont">my task board </h1>
+    </div>
+    <br>
+
+
+    <div class="formContainer">
+        <form id="form">
+            <br>
+            <input type="text" name="task" placeholder="please enter your task">
+            <span class="error" id="taskError"></span>
+            <br><br>
+            <input type="date" name="date" placeholder="please enter the Date">
+            <span class="error" id="dateError"></span>
+            <br><br><br>
+            <input type="text" placeholder="please enter the hour" name="hour">
+            <span class="error" id="hourError"></span>
+            <br>
+            <br>
+            <button type="button" onclick="add()"> Add</button>
+            <br>
+            <br>
+            <button type="button" onclick="Clear(this.parentNode)">Clear</button>
+
+            <br>
+            <br>
+
+        </form>
+    </div>
+
+    <section class="Container" id="section">
+
+    </section>
+
+
+</body>
+
+</html>
