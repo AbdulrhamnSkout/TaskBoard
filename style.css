@@ -1,5 +1,5 @@
 body{
-    background-image: url("/assets/images/tile.jpg");
+    background-image: url("assets/images/tile.jpg");
 }
 
 .titleContainer{
@@ -14,7 +14,7 @@ body{
 }
 
 .formContainer > form{
-    background-image:url("/assets/images/formbg.jpg"); 
+    background-image:url("assets/images/formbg.jpg"); 
     width: 800px;
 }
 
@@ -38,7 +38,7 @@ input[type="text"]{
 .make{
     height: 250px;
     width: 200px;
-    background-image: url(/assets/images/notebg.png);
+    background-image: url("assets/images/notebg.png");
     animation: fadeInAnimation ease 2s
 
     
